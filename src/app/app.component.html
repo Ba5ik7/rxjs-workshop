@@ -1,0 +1,13 @@
+<header>
+  <app-header></app-header>
+</header>
+<main>
+  <mat-sidenav-container class="sidenav-container">
+    <mat-sidenav #sidenav class="sidenav" fixed>
+      <app-sidenav-button-list></app-sidenav-button-list>
+    </mat-sidenav>
+    <mat-sidenav-content class="sidenav-content">
+      <router-outlet></router-outlet>
+    </mat-sidenav-content>
+  </mat-sidenav-container>
+</main>

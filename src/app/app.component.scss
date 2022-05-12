@@ -1,0 +1,26 @@
+header {
+  z-index: 2;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.sidenav-container {
+  margin-top: 60px;
+}
+
+.sidenav {
+  position: fixed;
+  top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+}
+
+.sidenav-content {
+  margin: 42px auto;
+  max-width: 680px;
+  min-height: 100vh;
+}
